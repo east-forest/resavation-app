@@ -1,0 +1,7 @@
+- SPA 対応
+  - app-routing.module.ts でパスを見てコンポーネントを切り替えるように設定する。
+  - routes: Routes = []の中に記載する。
+- Module
+  - 階層構造で作ることでメンテナンスしやすくなる
+  - CommonModule, BrowserModule
+  - router-outlet
